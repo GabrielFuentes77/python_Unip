@@ -6,12 +6,14 @@ C#, OCaml, VB, Swift, Pascal, Fortran, Haskell, Objective-C, Assembly, HTML, CSS
 Code, Compile, Run and Debug online from anywhere in world.
 
 """
-print("Exercício 1 (soma de 2 numeros) ")
+def soma(n1,n2):
+    return n1+n2
+    
+    
 
-n1 = int(input("Digite o primeiro numero: "))
-n2 = int(input("Digite o segundo numero: "))
-soma = n1 + n2
+num1 = int(input("Digite o primeiro numero: "))
+num2 = int(input("Digite o segundo numero: "))
 
-print(f"Resultado da soma: {soma}")
+print("Resultado da soma: ", soma(num1,num2))
     
 
