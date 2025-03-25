@@ -1,0 +1,15 @@
+import sys
+
+#Procedimento para dizer olá para o nome informado.
+def ola(nome):
+    print(f"Olá, {nome}")
+    
+#Função principal
+def main():
+    nome = input("Digite seu nome: ")
+    ola(nome)
+    
+#Ponto de partida do programa    
+if __name__=="__main__":
+    main()
+    
