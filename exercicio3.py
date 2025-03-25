@@ -1,8 +1,15 @@
-print("Exercício 3 (Teste Par ou Impar) \n")
-
+#Função para verificar se um numero é par ou impar
+def testePar(n1):
+    teste = False
+    if(n1%2==0):
+        teste = True
+    return teste
+        
 num = int(input("Informe um número: "))
 
-if(num % 2 == 0):
+verifica = testePar(num)
+
+if(verifica == True):
     print(f"O número {num} é par!")
 else: 
     print(f"O número {num} é impar!")
