@@ -1,0 +1,16 @@
+import sys
+
+#Procedimento para dizer olá para o nome informado.
+
+    
+#Função principal
+def main():
+    contador = 5
+    while(contador > 0):
+        print(contador)
+        contador -=1
+    
+#Ponto de partida do programa    
+if __name__=="__main__":
+    main()
+    
