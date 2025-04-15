@@ -1,0 +1,15 @@
+def mediaVelocidade(quilometro, horas):
+    km = quilometro
+    hora = horas
+    velocidadeMedia = km/hora
+    return velocidadeMedia
+    
+
+def main():
+    quilometro = float(input("Informe a distancia para chegar no seu destino: "))
+    horas = int(input("Informe quantas horas você tem para chegar: "))
+    velocidadeMedia = mediaVelocidade(quilometro, horas)
+    print(f"A velocidade média para chegar no destino é {velocidadeMedia} Km por hora.")
+
+if __name__=="__main__":
+    main()
