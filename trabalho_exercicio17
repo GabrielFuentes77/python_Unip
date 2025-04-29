@@ -1,0 +1,16 @@
+# Função para verificar se uma palavra é palíndromo
+def eh_palindromo(palavra):
+    palavra = palavra.lower().replace(" ", "")  # Torna minúscula e remove espaços
+    return palavra == palavra[::-1]
+
+# Função principal
+def main():
+    palavra = input("Digite uma palavra para verificar se é um palíndromo: ")
+    if eh_palindromo(palavra):
+        print(f"'{palavra}' é um palíndromo!")
+    else:
+        print(f"'{palavra}' não é um palíndromo.")
+
+# Chamada da função principal
+if __name__ == "__main__":
+    main()
