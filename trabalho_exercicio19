@@ -1,0 +1,18 @@
+# Função para contar vogais em uma palavra
+def contar_vogais(palavra):
+    vogais = "aeiouAEIOU"
+    contador = 0
+    for letra in palavra:
+        if letra in vogais:
+            contador += 1
+    return contador
+
+# Função principal
+def main():
+    palavra = input("Digite uma palavra: ")
+    quantidade = contar_vogais(palavra)
+    print(f"A palavra '{palavra}' contém {quantidade} vogal(is).")
+
+# Chamada da função principal
+if __name__ == "__main__":
+    main()
